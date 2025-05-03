@@ -172,7 +172,6 @@ namespace LearnOpenTK
 
             _lightingShader.SetInt("material.diffuse", 0);
             _lightingShader.SetInt("material.specular", 1);
-            _lightingShader.SetVector3("material.specular", new Vector3(0.5f, 0.5f, 0.5f));
             _lightingShader.SetFloat("material.shininess", 32.0f);
 
             _lightingShader.SetVector3("light.position", _camera.Position);
